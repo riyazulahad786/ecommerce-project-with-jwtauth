@@ -1,0 +1,16 @@
+.cardProductImg {
+  max-width: 330px;
+  padding-bottom: 30px;
+}
+#myColums {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#myRow {
+}
+
+@media screen and (max-width: 600px) {
+  #myRow {
+    padding: 10vw;
+  }
+}

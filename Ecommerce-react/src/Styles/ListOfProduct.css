@@ -1,0 +1,51 @@
+body {
+  height: 100%;
+}
+.box {
+  
+  overflow: scroll;
+  min-height: 500px;
+  max-height: 500px;
+  opacity: 0.75;
+}
+#footerCard {
+  position: absolute;
+}
+.box:hover {
+  opacity: 0.95;
+}
+
+.testContainer {
+  padding-top: 10vh;
+  height: 100vh;
+}
+.testCol {
+  padding-bottom: 10vh;
+}
+.testImg {
+  height: 200px;
+  object-fit: contain;
+}
+.colorSalePrice{
+  color: rgb(10, 247, 30);
+  font-weight: bolder;
+}
+
+#nav-dropdown{
+  font-size: 1.3em;
+  color: rgb(10, 219, 247);
+}
+#navDropItem{
+  opacity: 0.5;
+}
+.titleCardList{
+  color:rgb(10, 219, 247); ;
+}
+#saleImg{
+
+  width: 200px;
+  position: absolute;
+
+  top: 20%;
+  left: -4%;
+}
